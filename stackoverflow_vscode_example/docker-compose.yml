@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  interview_world:
+    image: interview_world
+    build: .
+    ports:
+      - 3000:3000

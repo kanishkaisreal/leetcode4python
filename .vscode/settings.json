@@ -1,0 +1,25 @@
+{
+    "python.testing.pyTestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pyTestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.testing.promptToConfigure": false,
+    //-------- Pandoc Option Configuration --------
+    // pandoc .pdf output option template that you would like to use
+    "pandoc.pdfOptString": "",
+    // pandoc .docx output option template that you would like to use
+    "pandoc.docxOptString": "",
+    // pandoc .html output option template that you would like to use
+    "pandoc.htmlOptString": "",
+    "python.linting.enabled": false
+}
